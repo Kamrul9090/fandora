@@ -13,15 +13,15 @@ const Banner = () => {
             <Navbar></Navbar>
             <div className='max-w-screen-xl pt-10'>
                 <div className='flex flex-col lg:flex-row'>
-                    <h1 className='text-3xl text-center lg:text-start lg:text-6xl font-normal uppercase p-5 lg:pl-24 w-full lg:w-1/2 z-10'>Calling Creators of the Future</h1>
+                    <h1 className='text-3xl text-center lg:text-start lg:text-6xl font-bold uppercase p-5 lg:pl-24 w-full lg:w-1/2 z-10'>Calling Creators of the Future</h1>
                     <div className='flex w-full lg:w-1/2 relative lg:m-0'>
-                        <img className='absolute left-28 w-24 h-36 lg:w-[204px] lg:h-[334px]' src={vector1} alt="" srcSet="" />
-                        <img className='absolute left-10 lg:left-14 w-16 h-16' src={vector2} alt="" srcSet="" />
-                        <img className='absolute bottom-6 lg:left-2' src={vector3} alt="" srcSet="" />
-                        <img className='absolute right-12 w-5 h-5 lg:w-7 lg:h-10 bottom-9 lg:bottom-44 lg:left-80' src={vector3} alt="" srcSet="" />
-                        <img className='absolute left-52 top-72 lg:left-[360px] lg:top-80' src={vector3} alt="" srcSet="" />
-                        <img className='absolute left-36 top-52 lg:left-64 lg:top-72' src={vector4} alt="" srcSet="" />
-                        <img className='absolute top-72 lg:left-32 lg:top-96' src={vector5} alt="" srcSet="" />
+                        <img className='absolute left-36 w-24 h-36 lg:w-[204px] lg:h-[334px]' src={vector1} alt="" srcSet="" />
+                        <img className='absolute left-14 top-12 lg:left-14 w-16 h-16' src={vector2} alt="" srcSet="" />
+                        <img className='absolute left-16 top-0 lg:left-2' src={vector3} alt="" srcSet="" />
+                        <img className='absolute right-14 w-5 h-8 lg:w-7 lg:h-10 bottom-6 lg:bottom-44 lg:left-80' src={vector3} alt="" srcSet="" />
+                        <img className='absolute left-72 top-72 lg:left-[360px] lg:top-80' src={vector3} alt="" srcSet="" />
+                        <img className='absolute left-48 top-52 lg:left-64 lg:top-72' src={vector4} alt="" srcSet="" />
+                        <img className='absolute top-72 left-32 lg:left-32 lg:top-96 w-[123px] h-[152px] lg:w-full lg:h-full' src={vector5} alt="" srcSet="" />
                     </div>
                 </div>
                 <div className='lg:pl-24 lg:space-y-4 space-y-2 pt-[460px] lg:pt-0 text-cyan-dark'>

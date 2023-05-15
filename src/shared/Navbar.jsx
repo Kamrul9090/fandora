@@ -29,8 +29,8 @@ const Navbar = () => {
                     </ul>
                     {
                         change ?
-                            <div className='bg-cyan absolute top-20 left-48 p-4'>
-                                <ul className="items-center space-y-5 text-[16px] block lg:none">
+                            <div className='bg-cyan absolute top-20 left-48 p-4 z-40 block lg:hidden'>
+                                <ul className="items-center space-y-5 text-[16px]">
                                     {navItems}
                                 </ul>
                             </div>

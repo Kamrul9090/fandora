@@ -1,3 +1,4 @@
+import React from 'react';
 import medal from '../../assets/logo/Medal.png'
 import like from '../../assets/logo/Like.png'
 import token from '../../assets/logo/Token.png'

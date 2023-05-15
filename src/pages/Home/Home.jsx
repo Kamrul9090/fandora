@@ -5,6 +5,8 @@ import SearchBar from './SearchBar/SearchBar';
 import Card from '../Card/Card';
 import Product from '../Product/Product';
 import Content from '../Content/Content';
+import Discover from '../Discover/Discover';
+import ServiceCheck from '../ServiceCheck/ServiceCheck';
 
 const Home = () => {
     return (
@@ -13,8 +15,10 @@ const Home = () => {
             <SearchBar></SearchBar>
             <ContentCard></ContentCard>
             <Card></Card>
+            <ServiceCheck></ServiceCheck>
             <Product></Product>
             <Content></Content>
+            <Discover></Discover>
         </div>
     );
 };
